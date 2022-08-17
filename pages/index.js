@@ -5,6 +5,7 @@ import Link from 'next/link'
 import logo from '../src/atempologo.png'
 import btn from '../src/lateral.png'
 import MainHead from '../components/MainHead'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -13,49 +14,7 @@ export default function Home() {
 
       <div className={styles.container}>
 
-      <div className={styles.header}>
-      <Image src={logo} width={250} height={48} />
-      <button className={styles.btnLateral}>
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-      <div className={styles.botonera}>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Botón</h3>
-        </font>
-      </button>
-      </div>
-      </div>
+      <Header/>
       
       <div className={styles.page}>
       <font face="Work Sans">
