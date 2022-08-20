@@ -42,7 +42,8 @@
     margin-right: 10px;
 }
 .btnLateral{
-    height:26px;
+    height:55px;
+    padding-top: 5px;
     border: none;
     background-color: transparent;
     color:white;
@@ -61,7 +62,7 @@
 }
 
 .page{
-    padding-top: 3vw;
+    padding-top: 150px;
 }
 
 .btnMenu{
@@ -87,7 +88,7 @@ background-color: transparent;
 
     .header{
         padding-top: 10px;
-        padding-bottom: 10px;
+        
         text-align: center;
         display: inline-block;
         background-image: none;
@@ -100,6 +101,10 @@ background-color: transparent;
     .btnLateral{
         width: 100%;
         transform: translate(0,0px);
+    }
+
+    .page{
+        padding-top: 200px;
     }
 
   }
