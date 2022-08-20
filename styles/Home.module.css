@@ -21,11 +21,11 @@
 
 .header{
     
-    background-image: url(../src/atempopapus.png);
+    background-image: url(../src/atempopapus.jpg);
     
-    background-size: 60vw;
+    background-size: 58vw;
     background-position-x: 15.2cm;
-    background-position-y: -21vw;
+    background-position-y: -20.8vw;
    background-repeat: no-repeat;
     margin: 0;
     width: 100%;
@@ -52,12 +52,12 @@
 
 .btnLateral:hover{
     text-shadow: 0px 0px 5px rgb(200,200,200);
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(200,200,200,0.1);
 }
 
 .btnLateral:focus{
     text-shadow: 0px 0px 5px rgb(200,200,200);
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(200,200,200,0.1);
 }
 
 .page{
@@ -83,18 +83,23 @@ background-color: transparent;
     background-color: rgba(0,0,0,0.5);
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1042px) {
 
     .header{
-        background-size: 55vw;
-    background-position-x: 105%;
-    background-position-y: -17.5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        display: inline-block;
+        background-image: none;
+        background-color: black;
     }
     .botonera{
       transform: translate(0,10000px);
       height: 1px;
     }
     .btnLateral{
-        transform: translate(45vw,0px);
+        width: 100%;
+        transform: translate(0,0px);
     }
+
   }

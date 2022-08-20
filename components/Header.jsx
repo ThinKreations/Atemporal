@@ -36,11 +36,7 @@ return(
           <h3>Nosotros</h3>
         </font>
       </button>
-      <button className={styles.btnMenu}>
-        <font face="Work Sans" size='3'>
-          <h3>Contacto</h3>
-        </font>
-      </button>
+      
       <button className={styles.btnMenu}>
         <font face="Work Sans" size='3'>
           <h3>Merch</h3>
