@@ -84,7 +84,7 @@ background-color: transparent;
     background-color: rgba(0,0,0,0.5);
 }
 
-@media screen and (max-width: 1042px) {
+@media screen and (max-width: 1060px) {
 
     .header{
         padding-top: 10px;
