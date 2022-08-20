@@ -20,36 +20,44 @@
 }
 
 .header{
-    background-color: black;
+    
+    background-image: url(../src/atempopapus.PNG);
+    
+    background-size: 60vw;
+    background-position-x: 15.2cm;
+    background-position-y: -21vw;
+   background-repeat: no-repeat;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-bottom: 2px solid white;
-    box-shadow: 0px 0px 15px rgb(100,100,100);
+    width: 100%;
+    
+    
+    
+    box-shadow: 0px 0px 15px rgb(50,50,50);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
-
+.botonera{
+    margin-right: 10px;
+}
 .btnLateral{
     height:26px;
     border: none;
-    background-color: black;
+    background-color: transparent;
     color:white;
     align-items: center;
     transform: translate(-2000px,0px);
 }
 
 .btnLateral:hover{
-    background-color: white;
-    color: black;
+    text-shadow: 0px 0px 5px rgb(200,200,200);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btnLateral:focus{
-    background-color: white;
-    color: black;
+    text-shadow: 0px 0px 5px rgb(200,200,200);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .page{
@@ -58,28 +66,35 @@
 
 .btnMenu{
     border: none;
-    margin-left: 0.7vw;
-    border-radius: 5px;
-    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
-    
+    height: 115px;
+background-color: transparent;
 }
 
 .btnMenu:hover{
-    background-color: white;
-    color: black;
+    text-shadow: 0px 0px 5px rgb(200,200,200);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btnMenu:focus{
-    background-color: white;
-    color: black;
+    text-shadow: 0px 0px 5px rgb(200,200,200);
+    background-color: rgba(0,0,0,0.5);
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1150px) {
+
+    .header{
+        background-size: 55vw;
+    background-position-x: 105%;
+    background-position-y: -17.5vw;
+    }
     .botonera{
-      transform: translate(2500px,0px)
+      transform: translate(0,10000px);
+      height: 1px;
     }
     .btnLateral{
-        transform: translate(53vw,0px);
+        transform: translate(45vw,0px);
     }
   }
