@@ -18,32 +18,32 @@ return(
       
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Noticias</h3>
         </font>
       </button>
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Música</h3>
         </font>
       </button>
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Redes</h3>
         </font>
       </button>
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Nosotros</h3>
         </font>
       </button>
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Contacto</h3>
         </font>
       </button>
       <button className={styles.btnMenu}>
         <font face="Inter" size='3'>
-          <h3>Botón</h3>
+          <h3>Merch</h3>
         </font>
       </button>
 
